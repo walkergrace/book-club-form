@@ -1,0 +1,54 @@
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+label {
+	display: block;
+	cursor: pointer;
+}
+
+input + label {
+	display: inline;
+}
+
+input {
+	font-size: 1rem;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+	cursor: pointer;
+}
+
+.input-text {
+	font-size: 1rem;
+	border: 1px solid #ccc;
+	padding: 0.5em;
+	background-image: linear-gradient(to bottom, #efefef, #fff);
+	border-radius: 2px;
+	width: 100%;
+}
+
+textarea {
+	max-width: 100%;
+	height: 7em;
+
+}
+
+button {
+	font-size: 2rem;
+	padding: 0.5rem;
+	border-radius: 10px;
+	border: 2px solid #00f;
+	background-image: linear-gradient(to bottom, #00f, #33e);
+	color: #fff;
+	cursor: pointer;
+}
+
+.input-error {
+	border: 3px solid #f33;
+}
+
