@@ -6,7 +6,7 @@
 
 html {
 	font: normal 100%/1.4 sans-serif;
-	background-color: #000;
+	background-color: ;
 	/*background-image: url('../img/fabio.jpg');
 	background-repeat: repeat;
 	background-position: center;
@@ -14,14 +14,16 @@ html {
 }
 
 h1 {
-	background-color: #8f060e;
+	font-family: 'Tangerine', cursive;	background-color: #8f060e;
 	color: #fff;
 	text-align: center;
 	width: 100%;
+	font-size: 5rem;
+	padding: 2rem;
 }
 
 label {
-	color: #fff;
+	color: #8f060e;
 	display: block;
 	cursor: pointer;
 }
@@ -43,7 +45,7 @@ input[type="checkbox"] {
 	font-size: 1rem;
 	border: 1px solid #ccc;
 	padding: 0.5em;
-	background-image: linear-gradient(to bottom, #fff, #fff);
+	background-image: linear-gradient(to bottom, #fff, #ffd7d9);
 	background-opacity: .08;
 	border-radius: 2px;
 	width: 100%;
@@ -67,7 +69,7 @@ button {
 }
 
 legend {
-	color: #fff;
+	color: #8f060e;
 }
 
 .input-error {
