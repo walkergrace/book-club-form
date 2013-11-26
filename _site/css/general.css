@@ -4,8 +4,24 @@
 	box-sizing: border-box;
 }
 
+html {
+	font: normal 100%/1.4 sans-serif;
+	background-color: #000;
+	/*background-image: url('../img/fabio.jpg');
+	background-repeat: repeat;
+	background-position: center;
+	padding: 2rem;*/
+}
+
+h1 {
+	background-color: #8f060e;
+	color: #fff;
+	text-align: center;
+	width: 100%;
+}
 
 label {
+	color: #fff;
 	display: block;
 	cursor: pointer;
 }
@@ -27,7 +43,8 @@ input[type="checkbox"] {
 	font-size: 1rem;
 	border: 1px solid #ccc;
 	padding: 0.5em;
-	background-image: linear-gradient(to bottom, #efefef, #fff);
+	background-image: linear-gradient(to bottom, #fff, #fff);
+	background-opacity: .08;
 	border-radius: 2px;
 	width: 100%;
 }
@@ -39,16 +56,61 @@ textarea {
 }
 
 button {
-	font-size: 2rem;
+	font-size: 1rem;
 	padding: 0.5rem;
 	border-radius: 10px;
-	border: 2px solid #00f;
-	background-image: linear-gradient(to bottom, #00f, #33e);
+	border: 2px solid #8f060e;
+	background-image: linear-gradient(to bottom, #8f060e, #b21122);
 	color: #fff;
 	cursor: pointer;
+	margin-top: 1rem;
+}
+
+legend {
+	color: #fff;
 }
 
 .input-error {
+	color: #f33;
 	border: 3px solid #f33;
 }
+
+.error {
+	color: #f33;
+	padding-left: 1rem;
+}
+
+.skiplinks {
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	width: 100%;
+	z-index: 3000;
+
+	font-size: 1.25rem;
+	font-weight: bold;
+	list-style: none;
+}
+
+.skiplinks a,
+.skiplinks a:link,
+.skiplinks a:visited {
+	padding: 0.75em 1em;
+	position: absolute;
+	top: -10em;
+
+	background-color: #000;
+
+	color: #fff;
+	text-decoration: none;
+}
+
+.skiplinks a:focus {
+	top: 0;
+}
+
+.space {
+	padding-bottom: 1rem;
+}
+
 
