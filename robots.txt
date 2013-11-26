@@ -1,0 +1,2 @@
+sitemap: http://bookclubform.com/sitemap.xml
+user-agent: *
